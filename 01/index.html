@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Register with Us</h1>
+      <form id="form" class="form">
+        <div class="field">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" placeholder="Enter your first name" />
+          <p class="small">error</p>
+        </div>
+        <div class="field">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" placeholder="Enter your last name" />
+          <p class="small">error</p>
+        </div>
+
+        <div class="field">
+          <label for="username">Username</label>
+          <input
+            type="text"
+            id="username"
+            placeholder="Enter your desired username"
+          />
+          <p class="small">error</p>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input
+            type="text"
+            id="email"
+            placeholder="Enter your email address"
+          />
+          <p class="small">error</p>
+        </div>
+        <div class="field">
+          <label for="pass">Password</label>
+          <input type="password" id="pass" placeholder="Enter a password" />
+          <p class="small">error</p>
+        </div>
+        <div class="field">
+          <label for="repass">Confirm password</label>
+          <input
+            type="password"
+            id="repass"
+            placeholder="Confirm your password "
+          />
+          <p class="small">error</p>
+        </div>
+        <button class="btn" type="submit">Register</button>
+      </form>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
